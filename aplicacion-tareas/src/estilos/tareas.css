@@ -1,0 +1,25 @@
+.tarea-contenedor {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .tarea-contenedor.completada {
+    background-color: #d4edda;
+    text-decoration: line-through;
+  }
+  
+  .tarea-texto {
+    font-size: 16px;
+  }
+  
+  .tarea-icono {
+    color: #f44336;
+    cursor: pointer;
+  }
+  
